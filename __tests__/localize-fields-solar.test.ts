@@ -2,7 +2,7 @@ import { describe, expect, test, beforeEach } from "@jest/globals";
 
 import setupCustomlocalize from "../src/localize/localize";
 import { computeFieldIcon, computeFieldName } from "../src/utils/compute-field-attributes";
-import { getSolarState } from "../src/states/raw/solar";
+import { getTotalSolarState } from "../src/states/raw/solar";
 import type { PowerFlowCardPlusConfig } from "../src/power-flow-card-plus-config";
 
 describe("localize + field helpers + solar sign", () => {
@@ -98,7 +98,7 @@ describe("localize + field helpers + solar sign", () => {
       },
     } as unknown as PowerFlowCardPlusConfig;
 
-    expect(getSolarState(hass, config)).toBe(0);
+    expect(getTotalSolarState(hass, config)).toBe(0);
   });
 
   test("getSolarState returns magnitude of negatives when invert_state is true", () => {
@@ -119,6 +119,6 @@ describe("localize + field helpers + solar sign", () => {
       },
     } as unknown as PowerFlowCardPlusConfig;
 
-    expect(getSolarState(hass, config)).toBe(500);
+    expect(getTotalSolarState(hass, config)).toBe(500);
   });
 });
