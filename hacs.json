@@ -1,5 +1,7 @@
 {
-  "name": "Power Flow Card Plus",
+  "name": "Power Flow Card Plus (Multi-Solar)",
   "render_readme": true,
+  "filename": "power-flow-card-plus.js",
+  "content_in_root": false,
   "homeassistant": "2023.12.3"
 }

@@ -11,6 +11,7 @@
 
 ## Additional Features / Enhancements
 
+- Multiple solar sources!!!
 - UI Editor!!! 🥳
 - Multiple Language support (🇺🇸, 🇩🇪, 🇵🇹, 🇪🇸, 🇧🇷, 🇳🇱, 🇮🇹, 🇫🇷, 🇷🇺, 🇫🇮, 🇵🇱, 🇩🇰, 🇸🇰, 🇨🇿)
 - Bidirectional Individual Entities ↕️
@@ -58,7 +59,7 @@ In case you want to watch a tutorial instead of reading through this very long r
 
 ### HACS (recommended)
 
-[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=flixlix&repository=power-flow-card-plus&category=Dashboard)
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=gummiangler&repository=power-flow-card-plus&category=Dashboard)
 
 This card is directly available through [HACS](https://hacs.xyz). To install HACS, follow these [instructions](https://hacs.xyz/docs/setup/prerequisites).
 After having HACS installed, simply search for "Power Flow Card Plus" and download it using the UI 🙂
@@ -66,7 +67,7 @@ After having HACS installed, simply search for "Power Flow Card Plus" and downlo
 <details>
 <summary>Manual install</summary>
 
-1. Download and copy `power-flow-card-plus.js` from the [latest release](https://github.com/flixlix/power-flow-card-plus/releases/latest) into your `config/www` directory.
+1. Download and copy `power-flow-card-plus.js` from the dist directory into your `config/www` directory.
 
 2. Add the resource reference as decribed below.
 
