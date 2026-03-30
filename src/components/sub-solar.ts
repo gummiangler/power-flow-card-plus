@@ -94,7 +94,7 @@ const renderSubSolarRow = (main: PowerFlowCardPlus, config: PowerFlowCardPlusCon
 const renderFlowContainer = (config: PowerFlowCardPlusConfig, solar, multipleIndividuals: boolean) => {
   return html`
     <div>
-      <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" style="width: 100%; height: 90px;">
+      <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 90px;">
         <path
           id="subSolarEntity1"
           class="solar ${styleLine(solar.state || 0, config)}"
