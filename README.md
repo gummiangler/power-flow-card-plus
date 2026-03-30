@@ -1,10 +1,8 @@
-# Power Flow Card Plus
+# Power Flow Card Plus (Multi-Solar Fork)
 
-[![ko-fi support](https://img.shields.io/badge/support-me-ff5e5b?style=flat-square&logo=ko-fi)](https://ko-fi.com/flixlix)
-[![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg?style=flat-square)](https://github.com/hacs/integration)
-![GitHub total downloads](https://img.shields.io/github/downloads/flixlix/power-flow-card-plus/total?style=flat-square)
-![commit_activity](https://img.shields.io/github/commit-activity/y/flixlix/power-flow-card-plus?color=brightgreen&label=Commits&style=flat-square)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/flixlix/power-flow-card-plus?style=flat-square)
+
+> [!IMPORTANT]  
+> **This is a Fork:** This version extends the original card by adding support for **multiple solar sources** (e.g., separate inverters or different roof orientations) to be displayed individually above the main solar circle.
 
 ![2023-03-26-13-04-07](https://user-images.githubusercontent.com/61006057/227771568-78497ecc-e863-46f2-b29e-e15c7c20a154.gif)
 
